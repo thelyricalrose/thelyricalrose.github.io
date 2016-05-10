@@ -82,10 +82,30 @@ body {
     text-shadow: 1px 2px 0px #000000;
 }
 
+#frontPanels{
+        background-color: #8EE3F5;
+}
+
+#aboutPanel {
+    background-image: url("aboutCover.png");
+    background-blend-mode: soft-light;
+    background-repeat:round+; 
+}
+
 #archivePanel {
     background-image: url("archiveCover.png");
     background-blend-mode: soft-light;
-    background-repeat:no-repeat; 
+    background-repeat:no-repeat+; 
+}
+
+#newsPanel {
+    background-image: url("newsCoverSmall.png");
+    background-blend-mode: soft-light;
+    background-repeat:round+; 
+}
+
+#social{
+     background-color: #F8F7FF;
 }
 
 #c1 {
@@ -97,7 +117,7 @@ body {
 }
 
 #c3 {
-    background-color: : #8EE3F5;
+    background-color: #8EE3F5;
 }
 
 #c4 {
