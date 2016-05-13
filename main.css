@@ -1,4 +1,4 @@
-/*reference Hex values*/
+backgrund/*reference Hex values*/
 
 #reference {
     color: #9381FF;
@@ -76,14 +76,15 @@ body {
 .frontPanel {
     width: auto;
     height: 34vh;
-    background-color: #101412;
+    background-color: #242724;
     font-family: 'Raleway', sans-serif;
     color: #F8F7FF;
     text-shadow: 1px 2px 0px #000000;
     border-radius: 12px;
 }
 
-#frontPanels{
+
+#frontPanels {
     background-color: #8EE3F5;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -104,17 +105,44 @@ body {
 #newsPanel {
     background-image: url("newsCoverSmall.png");
     background-blend-mode: soft-light;
-    background-size:cover; 
+    background-size: cover;
 }
 
-#social{
-     background-color: #F8F7FF;
+#social {
+    background-color: #F8F7FF;
 }
 
-#weAre{
+#weAre {
     padding: 30px;
-     background-color: #F8F7FF;
+
 }
+
+#aboutHeader{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+#weAreBody{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 18px;
+    color: #9281FF;
+}
+
+#bodySide{
+    background-color: #9281FF;
+    height: 50vh;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+#extraInfo{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 18px;
+    color: #FFF;
+}
+
 #c1 {
     background-color: #9281FF;
 }
