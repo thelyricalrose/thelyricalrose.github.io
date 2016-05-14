@@ -113,7 +113,8 @@ body {
 }
 
 #weAre {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -121,12 +122,21 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+    border-color: #8EE3F5;
+    padding: 8px;
+    border-bottom-style: solid;
+    border-width: thick;
+    border-radius: 6px;
+    margin-top: 80px;
+        margin-bottom: 40px;
 }
 #weAreBody{
     font-weight: 500;
     font-size: 18px;
     padding-top: 18px;
     color: #9281FF;
+    margin-top: 0px;
+    padding: 10px;
 }
 
 #bodySide{
@@ -138,10 +148,9 @@ body {
 
 #extraInfo{
     font-weight: 500;
-    font-size: 18px;
-    padding-top: 18px;
+    font-size:   18px;
     color: #FFF;
-}
+    padding: 10px;
 
 #c1 {
     background-color: #9281FF;
