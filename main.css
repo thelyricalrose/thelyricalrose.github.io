@@ -8,7 +8,7 @@ backgrund/*reference Hex values*/
     color: #6B818C;
 }
 
-body {
+html, body {
     overflow-x: hidden;
     background-color: #6B818C;
 }
