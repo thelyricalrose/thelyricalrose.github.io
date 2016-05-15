@@ -173,16 +173,6 @@ html, body {
     
 }
 
-@media (max-width: 768px) {
-  #weAreBody {
-    font-size: 18px;
-    height: 80vh;
-  }
-  #bodySide {
-    font-size: 18px;
-      height: 90vh;
-  }
-}
 @media (max-width: 991px) {
     #social {
         display: none;
@@ -195,10 +185,10 @@ html, body {
         border-radius: 0px;
     }
     #weAreBody{
-        height: 70vh;
+        height: 75vh;
     }
     #bodySide{
-        height: 70vh;
+        height: 75vh;
     }  
     #hero{
         font-size: 3em;
