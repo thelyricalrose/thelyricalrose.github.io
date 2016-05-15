@@ -181,7 +181,7 @@ body {
     font-size: 24px;
   }
 }
-@media (max-width: 948px) {
+@media (max-width: 991px) {
     #social {
         display: none;
     }
