@@ -173,12 +173,14 @@ body {
     
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #weAreBody {
-    font-size: 24px;
+    font-size: 18px;
+    height: 80vh;
   }
-  #extraInfo {
-    font-size: 24px;
+  #bodySide {
+    font-size: 18px;
+      height: 90vh;
   }
 }
 @media (max-width: 991px) {
@@ -197,5 +199,12 @@ body {
     }
     #bodySide{
         height: 70vh;
-    }    
+    }  
+    #hero{
+        font-size: 3em;
+    }
+    #logo{
+        width: 45vh;
+        height: 45vh;
+    }
 }
