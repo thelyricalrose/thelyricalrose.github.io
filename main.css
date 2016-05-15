@@ -82,6 +82,11 @@ html, body {
     color: #F8F7FF;
     text-shadow: 1px 2px 0px #000000;
     border-radius: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.frontPanel:hover{
+    background-color: #545754
 }
 
 
@@ -182,7 +187,7 @@ html, body {
     }
     .frontPanel{
         padding:0px;
-        border-radius: 0px;
+        border-radius: 6px;
     }
     #weAreBody{
         height: 75vh;
