@@ -49,7 +49,7 @@ html, body {
 .socialIcon {
     background-color: #6B818C;
     border-radius: 10px;
-    font-size: 5.5em;
+    font-size: 4.5em;
     width: 1.4em;
     margin: auto;
 }
@@ -76,7 +76,7 @@ html, body {
 
 .frontPanel {
     width: auto;
-    height: 34vh;
+    height: 40vh;
     background-color: #242724;
     font-family: 'Raleway', sans-serif;
     color: #F8F7FF;
@@ -86,14 +86,14 @@ html, body {
 }
 
 .frontPanel:hover{
-    background-color: #545754
+    background-color: rgba(0,0,0,0);
 }
 
 
 #frontPanels {
     background-color: #8EE3F5;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #aboutPanel {
@@ -132,6 +132,8 @@ html, body {
     font-family: 'Roboto Slab', serif;
     padding-top: 40px;
     padding-bottom: 30px;
+    color: #FFF;
+    text-shadow: 1px 2px 2px #000;
 }
 #weAreBody{
     font-weight: 700;
