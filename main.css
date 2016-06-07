@@ -128,13 +128,13 @@ html, body {
 
 #aboutHeader{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
     padding-top: 2vh;
     padding-bottom: 8vh;
     color: #FFF;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 5px #ACE;
 }
 #weAreBody{
     font-weight: 700;
@@ -161,7 +161,7 @@ html, body {
 }
 
 #quotes{
-    background-color: #AEE3F5;
+    background-color: #BEE3F5;
     padding-bottom: 30px
 }
 
@@ -170,7 +170,7 @@ html, body {
     text-align: center;
     font-size: 2.4em;
     vertical-align: middle;
-    color:#6B818C;
+    color:#606060;
     letter-spacing: 10px;
 }
 
@@ -194,15 +194,6 @@ html, body {
     background-color: #6B818C;
     
 }
-@media (max-width: 400px){
-        #weAreBody{
-        height: 80vh;
-    }
-    #bodySide{
-        height: 80vh;
-    }
-}
-
 @media (max-width: 991px) {
     #social {
         display: none;
@@ -214,17 +205,27 @@ html, body {
         padding:0px;
         border-radius: 6px;
     }
-    #weAreBody{
-        height: 75vh;
-    }
-    #bodySide{
-        height: 75vh;
-    }  
     #hero{
         font-size: 3em;
     }
     #logo{
         width: 45vh;
         height: 45vh;
+    }
+    #aboutHeader{
+        font-size: 31px;
+        text-shadow: 0px 0px 3px #ACE;
+    }
+}
+
+@media (max-width: 400px){
+     #weAreBody{
+        height: 85vh;
+    }
+    #bodySide{
+        height: 85vh;
+    }
+    #aboutHeader{
+        font-size: 26px;
     }
 }
