@@ -81,12 +81,13 @@ html, body {
 .frontPanel {
     width: auto;
     height: 40vh;
-    background-color: #242724;
+    background-color: #111;
     font-family: 'Raleway', sans-serif;
-    color: #F8F7FF;
+    color: #CCC;
     text-shadow: 1px 2px 0px #000000;
     border-radius: 12px;
     transition: background-color 0.2s ease;
+    font-family: 'Courier new';
 }
 
 .frontPanel:hover{
@@ -95,7 +96,7 @@ html, body {
 
 
 #frontPanels {
-    background-color: #AEE3F5;
+    background-color: #CCC;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -119,14 +120,14 @@ html, body {
 }
 
 #social {
-    background-color: #D9E5E7;
+    background-color: #EEE;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 #weAre {
     padding: 30px;
-    background-color: #AEE3F5;
+    background-color: #FFF;
 }
 
 #aboutHeader{
@@ -136,24 +137,24 @@ html, body {
     font-family: 'Roboto Slab', serif;
     padding-top: 2vh;
     padding-bottom: 8vh;
-    color: #FFF;
-    text-shadow: 0px 0px 5px #ACE;
+    color: #333;
+    font-family: 'courier new;
 }
 #weAreBody{
     font-weight: 700;
     font-size: 18px;
     padding-top: 18px;
     color: #6B818C;
-    background-color: #FFF;
+    background-color: #CCC;
     min-height: 50vh;
-    border-radius: 6px;
+    border-radius: 1px;
 }
 
 #bodySide{
     background-color: #6B818C;
     min-height: 50vh;
     margin-bottom: 30px;
-    border-radius: 6px;
+    border-radius: 1px;
 }
 
 #extraInfo{
@@ -164,7 +165,7 @@ html, body {
 }
 
 #quotes{
-    background-color: #BEE3F5;
+    background-color: #FFF;
     padding-bottom: 30px
 }
 
@@ -175,6 +176,7 @@ html, body {
     vertical-align: middle;
     color:#606060;
     letter-spacing: 10px;
+    background-color: #CCC;
 }
 
 #c1 {
