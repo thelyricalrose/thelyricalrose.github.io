@@ -144,14 +144,14 @@ html, body {
     font-weight: 700;
     font-size: 18px;
     padding-top: 18px;
-    color: #6B818C;
+    color: #333;
     background-color: #CCC;
     min-height: 50vh;
     border-radius: 1px;
 }
 
 #bodySide{
-    background-color: #6B818C;
+    background-color: #333;
     min-height: 50vh;
     margin-bottom: 30px;
     border-radius: 1px;
